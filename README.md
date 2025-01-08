@@ -1,3 +1,7 @@
+## Install
+
+Files are available at NexusMods and GitHub releases.
+
 ## Build
 
 1. Install .NET SDK.\
