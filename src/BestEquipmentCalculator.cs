@@ -2,7 +2,7 @@
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     class BestEquipmentCalculator
     {
@@ -128,7 +128,7 @@ namespace EquipBestItem
                     thrustSpeed = mod.ModifySpeed(thrustSpeed);
                 if (maxDataValue > 0f)
                 {
-                    if(primaryWeaponItem.WeaponClass == WeaponClass.SmallShield || primaryWeaponItem.WeaponClass == WeaponClass.LargeShield)
+                    if (primaryWeaponItem.WeaponClass == WeaponClass.SmallShield || primaryWeaponItem.WeaponClass == WeaponClass.LargeShield)
                     {
                         maxDataValue = mod.ModifyHitPoints((short)maxDataValue);
                     }
@@ -136,9 +136,9 @@ namespace EquipBestItem
                     {
                         maxDataValue = mod.ModifyStackCount((short)maxDataValue);
                     }
-                    
+
                 }
-                    
+
                 //WeaponWeight *= mod.WeightMultiplier;
 
                 // Ensure that the values always clamped between 0 to infinity
@@ -292,7 +292,7 @@ namespace EquipBestItem
                     break;
 
                 default:
-                    sum = 
+                    sum =
                         Math.Abs(filterWeapon.Accuracy) +
                         Math.Abs(filterWeapon.WeaponBodyArmor) +
                         Math.Abs(filterWeapon.Handling) +

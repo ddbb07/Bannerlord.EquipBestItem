@@ -3,7 +3,7 @@ using System.IO;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     public class SettingsLoader
     {

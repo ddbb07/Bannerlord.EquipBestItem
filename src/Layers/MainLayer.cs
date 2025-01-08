@@ -1,6 +1,6 @@
 ﻿using TaleWorlds.Engine.GauntletUI;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     class MainLayer : GauntletLayer
     {

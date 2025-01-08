@@ -3,7 +3,7 @@ using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.Library;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     public class SubModule : MBSubModuleBase
     {

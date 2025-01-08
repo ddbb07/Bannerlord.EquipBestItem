@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     [Serializable]
     public class CharacterSettings

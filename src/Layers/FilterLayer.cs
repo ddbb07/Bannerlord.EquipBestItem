@@ -1,7 +1,7 @@
 ﻿using TaleWorlds.Engine.GauntletUI;
 using TaleWorlds.InputSystem;
 
-namespace EquipBestItem.Layers
+namespace Bannerlord.EquipBestItem.Layers
 {
     internal class FilterLayer : GauntletLayer
     {

@@ -1,4 +1,4 @@
-﻿namespace EquipBestItem
+﻿namespace Bannerlord.EquipBestItem
 {
     public class FilterWeaponSettings
     {

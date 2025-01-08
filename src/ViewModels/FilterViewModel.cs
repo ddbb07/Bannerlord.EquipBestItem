@@ -1,7 +1,7 @@
 ﻿using TaleWorlds.Core;
 using TaleWorlds.Library;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     class FilterViewModel : ViewModel
     {
@@ -1556,7 +1556,7 @@ namespace EquipBestItem
             else
                 this.IsHiddenFilterLayer = !IsHiddenFilterLayer;
 
-            
+
             this.IsArmorSlotHidden = false;
             this.IsWeaponSlotHidden = true;
             this.IsMountSlotHidden = true;

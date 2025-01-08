@@ -1,7 +1,7 @@
 ﻿using TaleWorlds.GauntletUI;
 using TaleWorlds.GauntletUI.BaseTypes;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     public class LockRightPanelWidget : ButtonWidget
     {

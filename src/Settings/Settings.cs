@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     [Serializable]
     public class Settings

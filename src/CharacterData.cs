@@ -1,7 +1,7 @@
 ﻿using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     // This could be struct instead of a class since it only stores data and does nothing with it.
     class CharacterData

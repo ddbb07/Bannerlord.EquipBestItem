@@ -1,4 +1,4 @@
-﻿using EquipBestItem.Layers;
+﻿using Bannerlord.EquipBestItem.Layers;
 using SandBox.GauntletUI;
 using System;
 using TaleWorlds.CampaignSystem;
@@ -7,7 +7,7 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.ScreenSystem;
 
-namespace EquipBestItem
+namespace Bannerlord.EquipBestItem
 {
     class InventoryBehavior : CampaignBehaviorBase
     {
@@ -33,7 +33,7 @@ namespace EquipBestItem
                     if (ScreenManager.TopScreen is GauntletInventoryScreen)
                     {
                         _inventoryScreen = ScreenManager.TopScreen as GauntletInventoryScreen;
-                        
+
                         // Get inventory from the inventory screen using reflection
                         Inventory = _inventoryScreen.GetField("_dataSource") as SPInventoryVM;
 
