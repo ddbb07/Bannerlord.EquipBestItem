@@ -1,3 +1,7 @@
+## Overview
+
+Forked from BeauBouchard/EquipBestItemReloaded
+
 ## Install
 
 Files are available at NexusMods and GitHub releases.
